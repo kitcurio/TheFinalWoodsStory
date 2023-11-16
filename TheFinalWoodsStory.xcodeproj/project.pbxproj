@@ -27,6 +27,8 @@
 		641DD90A2B066E4500A5166A /* Magical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD9092B066E4500A5166A /* Magical.swift */; };
 		641DD90C2B066E5700A5166A /* Mystical.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD90B2B066E5700A5166A /* Mystical.swift */; };
 		641DD90F2B066E9900A5166A /* Chapter4View.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD90E2B066E9900A5166A /* Chapter4View.swift */; };
+		641DD9112B0679FF00A5166A /* PersonStruct.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD9102B0679FF00A5166A /* PersonStruct.swift */; };
+		641DD9132B067A5800A5166A /* CoverView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 641DD9122B067A5800A5166A /* CoverView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -70,6 +72,8 @@
 		641DD9092B066E4500A5166A /* Magical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Magical.swift; sourceTree = "<group>"; };
 		641DD90B2B066E5700A5166A /* Mystical.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mystical.swift; sourceTree = "<group>"; };
 		641DD90E2B066E9900A5166A /* Chapter4View.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Chapter4View.swift; sourceTree = "<group>"; };
+		641DD9102B0679FF00A5166A /* PersonStruct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonStruct.swift; sourceTree = "<group>"; };
+		641DD9122B067A5800A5166A /* CoverView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoverView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -121,7 +125,9 @@
 			isa = PBXGroup;
 			children = (
 				641DD8C02B066BCA00A5166A /* TheFinalWoodsStoryApp.swift */,
+				641DD9122B067A5800A5166A /* CoverView.swift */,
 				641DD8C22B066BCA00A5166A /* ContentView.swift */,
+				641DD9102B0679FF00A5166A /* PersonStruct.swift */,
 				641DD8EA2B066C2600A5166A /* Chapter1 */,
 				641DD8F12B066C9400A5166A /* Chapter 2 */,
 				641DD9042B066DED00A5166A /* Chapter 3 */,
@@ -337,9 +343,11 @@
 				641DD8C32B066BCA00A5166A /* ContentView.swift in Sources */,
 				641DD8EC2B066C5600A5166A /* Chapter1View.swift in Sources */,
 				641DD8F02B066C8100A5166A /* Ch1Part1.swift in Sources */,
+				641DD9112B0679FF00A5166A /* PersonStruct.swift in Sources */,
 				641DD8C12B066BCA00A5166A /* TheFinalWoodsStoryApp.swift in Sources */,
 				641DD90A2B066E4500A5166A /* Magical.swift in Sources */,
 				641DD9082B066E2E00A5166A /* Random.swift in Sources */,
+				641DD9132B067A5800A5166A /* CoverView.swift in Sources */,
 				641DD8FF2B066DAC00A5166A /* ShortPathView.swift in Sources */,
 				641DD9062B066E1400A5166A /* Chapter3View.swift in Sources */,
 				641DD8FB2B066D7F00A5166A /* Chapter2View.swift in Sources */,
