@@ -11,6 +11,10 @@ import SwiftUI
 struct ContentView: View {
     var body: some View {
         TabView {
+            CoverView()
+                .tabItem {
+                    Label("Cover", systemImage: "book.closed")
+                }
             Chapter1View()
                 .tabItem {
                     Label("Chapter 1", systemImage: "1.circle")
