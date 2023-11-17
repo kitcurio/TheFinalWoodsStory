@@ -1,16 +1,18 @@
 //
 //  LongPathView.swift
-//  TheFinalWoodsStory
+//  ElusiveProblems
 //
-//  Created by Kasia Rivers on 11/16/23.
+//  Created by Cannon Goldsby on 11/15/23.
 //
 
 import SwiftUI
 
 struct LongPathView: View {
+    var character: Character = .Anon
+    var characterNar: Character = .Narrator
+    var characterMir: Character = .Miriam
     var body: some View {
-//    introduce the setting and characters
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
+        Text(characterNar.dialoguePriority + "After choosing to play it safe, you decide it's best to keep a steady pace on the road ahead of you, so you can make it back to your mom without delay.")
 //    end setting and characters
     }
 }
