@@ -8,6 +8,8 @@
 import SwiftUI
 
 struct Person {
-    var charName: String
-    var charAge: Int
+    var name: String
+    var age: Int
+    var color: Color
+    var word: String
 }
