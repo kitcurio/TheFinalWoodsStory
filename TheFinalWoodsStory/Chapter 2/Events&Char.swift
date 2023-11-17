@@ -1,8 +1,8 @@
 //
 //  Events&Char.swift
-//  TheFinalWoodsStory
+//  ElusiveProblems
 //
-//  Created by Kasia Rivers on 11/16/23.
+//  Created by Cannon Goldsby on 11/15/23.
 //
 
 import SwiftUI
@@ -56,3 +56,48 @@ enum Character{
         }
     }
 }
+
+struct YesOrNo: View {
+    @Binding var isSelected: Bool?
+    
+    var body: some View {
+        HStack {
+            Button(action: {
+                self.isSelected = true
+            }) {
+                Text("Yes")
+                    .padding()
+                    .background(isSelected == true ? Color.green : Color.gray)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+            
+            Button(action: {
+                self.isSelected = false
+            }) {
+                Text("No")
+                    .padding()
+                    .background(isSelected == false ? Color.red : Color.gray)
+                    .foregroundColor(.white)
+                    .cornerRadius(10)
+            }
+        }
+    }
+}
+
+struct FadingText: View {
+    var text: String
+
+    @State private var fadeIn = false
+
+    var body: some View {
+        Text(text)
+            .opacity(fadeIn ? 1 : 0)
+            .onAppear {
+                withAnimation(.easeIn(duration: 1.0)) {
+                    self.fadeIn = true
+                }
+            }
+    }
+}
+
